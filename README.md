@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:0f172a,40:0f766e,100:2563eb&text=B%C3%A1o%20C%C3%A1o%20Th%E1%BB%B1c%20T%E1%BA%ADp%20Th%E1%BB%B1c%20T%E1%BA%BF&fontColor=ffffff&fontSize=38&fontAlignY=38&desc=BTP%20Holdings%20%E2%80%A2%20QC%20%26%20Warranty%20Service%20%E2%80%A2%20HCMUS%20DTVT%20%E2%80%A2%20K2022%20CLC&descAlignY=62&descSize=15" alt="BCTT banner" />
+  <img src="docs/banner.svg" alt="Báo Cáo Thực Tập Thực Tế — BTP Holdings — HCMUS FETEL K2022 CLC" width="100%" />
 </p>
 
 <p align="center">
