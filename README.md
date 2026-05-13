@@ -1,6 +1,8 @@
 <p align="center">
-  <img src="docs/banner.svg" alt="Báo Cáo Thực Tập Thực Tế — BTP Holdings — HCMUS FETEL K2022 CLC" width="100%" />
+  <img src="docs/banner.svg" alt="Internship Report 2026 — BTP Holdings — HCMUS FETEL K2022 CLC" width="100%" />
 </p>
+
+<h2 align="center">📕 Báo Cáo Thực Tập Thực Tế 2026 — BTP Holdings 📕</h2>
 
 <p align="center">
   <a href="https://typst.app/"><img src="https://img.shields.io/badge/Typst-0.13%2B-239DAD?style=for-the-badge&logo=typst&logoColor=white" alt="Typst" /></a>
