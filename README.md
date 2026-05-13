@@ -50,14 +50,14 @@ Báo cáo bám theo **mẫu báo cáo thực tập thực tế của Khoa Điệ
 | --- | ------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 | 0   | Trang bìa + Bìa phụ                                     | Thông tin trường, khoa, bộ môn, sinh viên, đơn vị thực tập                          |
 | 0   | Lời cảm ơn, Lời cam đoan, Danh mục viết tắt             | Thủ tục đầu báo cáo theo mẫu Khoa                                                   |
-| 1   | **Giới thiệu đơn vị thực tập**                          | Mô hình hoạt động BTP Holdings, vai trò QC & Bảo hành SP, phạm vi thực tập          |
-| 2   | **An toàn, quy trình và bộ phận liên quan**             | An toàn điện, lockout/tagout, checklist QC, phối hợp QC ↔ Bảo hành ↔ R&D            |
+| 1   | **Giới thiệu đơn vị thực tập**                          | Mô hình hoạt động BTP Holdings, vai trò QC &amp; Bảo hành SP, phạm vi thực tập      |
+| 2   | **An toàn, quy trình và bộ phận liên quan**             | An toàn điện, lockout/tagout, checklist QC, phối hợp QC ↔ Bảo hành ↔ R&amp;D        |
 | 3   | **Sản phẩm và phần điện - điện tử bên trong**           | Bếp đôi từ, máy rửa chén — khối nguồn, mạch công suất, MCU, panel hiển thị, cảm biến |
 | 4   | **Quy trình bảo hành SP**                               | Tiếp nhận → chẩn đoán → sửa chữa → kiểm thử sau can thiệp                            |
 | 5   | **Quan sát kết nối thiết bị — ứng dụng (IoT)**          | Kết nối Wi-Fi/BLE, hành vi app, kiểm thử ở mức người dùng                            |
-| 6   | **Kỹ năng & kiến thức tích lũy**                        | Mapping kiến thức Khoa ↔ thực tế công ty                                             |
+| 6   | **Kỹ năng &amp; kiến thức tích lũy**                    | Mapping kiến thức Khoa ↔ thực tế công ty                                             |
 | 7   | **Kết luận, đề xuất, nhật ký thực tập**                  | Đề xuất nâng cấp quy trình, bảng nhật ký 400 giờ                                    |
-| —   | **Tài liệu tham khảo (IEEE)** + **Phụ lục**             | `.bib` IEEE style, phụ lục checklist & mẫu phiếu                                    |
+| —   | **Tài liệu tham khảo (IEEE)** + **Phụ lục**             | `.bib` IEEE style, phụ lục checklist &amp; mẫu phiếu                                |
 
 ## Cây thư mục / Repository Layout
 
@@ -73,12 +73,12 @@ Báo cáo bám theo **mẫu báo cáo thực tập thực tế của Khoa Điệ
 │   ├── 02_loi_cam_doan.typ
 │   ├── 03_danh_muc_viet_tat.typ
 │   ├── 04_chuong_1.typ            # Giới thiệu đơn vị
-│   ├── 05_chuong_2.typ            # An toàn & quy trình
-│   ├── 06_chuong_3.typ            # Sản phẩm & phần điện tử
+│   ├── 05_chuong_2.typ            # An toàn &amp; quy trình
+│   ├── 06_chuong_3.typ            # Sản phẩm &amp; phần điện tử
 │   ├── 07_chuong_4.typ            # Quy trình bảo hành
 │   ├── 08_chuong_5.typ            # Kết nối IoT
 │   ├── 09_chuong_6.typ            # Kỹ năng tích lũy
-│   ├── 10_chuong_7.typ            # Kết luận & đề xuất
+│   ├── 10_chuong_7.typ            # Kết luận &amp; đề xuất
 │   └── 11_phu_luc.typ
 ├── assets/                        # ⚠️ Cần được populate từ media-archive/ trước khi build
 └── media-archive/                 # Raw photo archive (chưa rename)
@@ -129,7 +129,7 @@ Vì `media-archive/` là **ảnh thô** chưa được rename, để build PDF t
 
 > Sau khi populate `assets/`, lệnh `typst compile main.typ` sẽ chạy sạch.
 
-## Thông tin pháp lý & học thuật / Academic & Legal
+## Thông tin pháp lý &amp; học thuật / Academic &amp; Legal
 
 <table>
   <tr>
@@ -160,19 +160,19 @@ Vì `media-archive/` là **ảnh thô** chưa được rename, để build PDF t
 - **Kỹ thuật:** quan sát hệ thống điện-điện tử trong sản phẩm gia dụng thực, hiểu nguyên lý khối nguồn, mạch công suất, MCU điều khiển, cảm biến, panel hiển thị, cơ cấu chấp hành.
 - **Quy trình:** an toàn điện, lockout/tagout, checklist QC, vòng đời tiếp nhận → chẩn đoán → sửa → kiểm thử lại của Bảo hành SP.
 - **Tài liệu:** tự xây dựng template Typst chuẩn theo mẫu HCMUS, có heading numbering, bibliography IEEE, photo grid, sơ đồ khối — không dùng Word.
-- **Phối hợp:** giao tiếp với phòng QC, Bảo hành SP, R&D, Đào tạo — quan sát luồng dữ liệu lỗi quay trở lại R&D.
+- **Phối hợp:** giao tiếp với phòng QC, Bảo hành SP, R&amp;D, Đào tạo — quan sát luồng dữ liệu lỗi quay trở lại R&amp;D.
 - **Mindset:** tôn trọng an toàn, viết theo đúng vai trò *thực tập sinh — quan sát, ghi nhận, đối chiếu* — không phóng đại đóng góp cá nhân.
 
 ## Liên quan / See also
 
 - [`DoAnHeThongNhung`](https://github.com/lhlizdabezt/DoAnHeThongNhung) — Đồ án Hệ thống nhúng (DE10-Standard SoC, TCP/Ethernet)
 - [`Slide-DoAnHTN-Nhom17-DE10Standard`](https://github.com/lhlizdabezt/Slide-DoAnHTN-Nhom17-DE10Standard) — Slide bảo vệ đồ án HTN Nhóm 17 (Stargazer Typst theme)
-- [`HCMUS-DTVT-BaoCao-Templates`](https://github.com/lhlizdabezt/HCMUS-DTVT-BaoCao-Templates) — Templates & guide Typst cho KLTN/BCTT
+- [`HCMUS-DTVT-BaoCao-Templates`](https://github.com/lhlizdabezt/HCMUS-DTVT-BaoCao-Templates) — Templates &amp; guide Typst cho KLTN/BCTT
 
 ## License
 
 - Mã nguồn Typst (template, macros, layout): **MIT License** — xem [LICENSE](LICENSE).
-- Nội dung báo cáo (text, sơ đồ, kết luận) và toàn bộ ảnh trong `media-archive/`: **© 2026 Lương Hải Long & BTP Holdings.** Vui lòng không tái sử dụng cho mục đích thương mại hay nộp lại như báo cáo của bạn.
+- Nội dung báo cáo (text, sơ đồ, kết luận) và toàn bộ ảnh trong `media-archive/`: **© 2026 Lương Hải Long &amp; BTP Holdings.** Vui lòng không tái sử dụng cho mục đích thương mại hay nộp lại như báo cáo của bạn.
 
 <p align="center">
   <sub>Made with <a href="https://typst.app/">Typst</a> · Báo cáo soạn theo mẫu BCTT của Khoa Điện tử Viễn thông — HCMUS · Khóa 2022 CLC</sub>
