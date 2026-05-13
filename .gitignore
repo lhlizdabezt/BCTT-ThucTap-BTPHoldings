@@ -1,0 +1,24 @@
+# Typst build outputs
+*.pdf
+!media-archive/**/*.pdf
+.typst-cache/
+*.aux
+*.log
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+
+# Local working copies
+assets/*.jpg
+assets/*.png
+assets/*.jpeg
+!assets/.gitkeep
+
+# Tooling
+node_modules/
+__pycache__/

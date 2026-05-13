@@ -1,0 +1,6 @@
+KHOẢNH KHẮC ĐÁNG NHỚ TẠI HỘI NGHỊ DỊCH VỤ BẢO HÀNH VÀ LẮP ĐẶT ỦY QUYỀN
+Bảo hành siêu tốc - Lắp đặt siêu nhanh - Tiêu chuẩn 5 sao!
+🎊Sự kiện do BTP Holdings cùng ba thương hiệu Junger - Hawonkoo - Boss tổ chức với chủ đề “Bảo hành siêu tốc - Lắp đặt siêu nhanh - Tiêu chuẩn 5 sao!” đã khép lại thành công ngoài mong đợi! 
+Sự kiện quy tụ 48 trạm trưởng & CTV đến từ các trung tâm bảo hành, lắp đặt miền Nam, miền Tây và miền Trung, cùng nhau chia sẻ kinh nghiệm và nâng cao chất lượng dịch vụ dưới sự đồng hành cung cấp kho học liệu chuyên sâu về sản phẩm mang tính thực tiễn đến từ BTP.
+🎯Hội nghị đã kết thúc nhưng hành trình của chúng ta mới chỉ bắt đầu. Với những cam kết của BTP Holdings trong việc xây dựng mối quan hệ hợp tác chặt chẽ và bền vững với các đối tác Trung tâm bảo hành ủy quyền, BTP khẳng định đem tới cho khách hàng dịch vụ bảo hành nhanh nhất, tốt nhất và vượt trội nhất! Đồng thời, BTP tin rằng sự chuẩn bị này cũng đặt nền móng cho sự phát triển mạnh mẽ hơn trong năm 2025 để giữ vững ngôi vị thương hiệu gia dụng cao cấp hàng đầu tại Việt Nam.
+Chúng tôi xin gửi lời cảm ơn chân thành đến Quý khách hàng, đối tác đã tham gia và đóng góp tại Hội nghị với tinh thần hợp tác và quyết tâm cao!
