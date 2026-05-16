@@ -1,23 +1,17 @@
 # Typst build outputs
 *.pdf
 !media-archive/**/*.pdf
-.typst-cache/
-*.aux
 *.log
+*.aux
+.typst-cache/
 
-# IDE & OS
+# IDE and OS
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
 desktop.ini
 *~
-
-# Local working copies
-assets/*.jpg
-assets/*.png
-assets/*.jpeg
-!assets/.gitkeep
 
 # Tooling
 node_modules/

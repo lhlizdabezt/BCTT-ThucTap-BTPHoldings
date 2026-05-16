@@ -1,49 +1,50 @@
-
-      <svg
-        width="854"
-        height="200"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        style="z-index:1;position:relative"
-        viewBox="0 0 854 200"
-      >
-        <style>
-      .text {   font-size: 42px;   font-weight: 700;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } .desc {   font-size: 15px;   font-weight: 500;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } 
-      .text, .desc {   animation: fadeIn 1.2s ease-in-out forwards;  } @keyframes fadeIn {   from {     opacity: 0;   }   to {     opacity: 1;   }  } 
-    </style>
-        <defs>
-              <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
-                <stop offset="0%" stop-color="#0f172a"/><stop offset="40%" stop-color="#0f766e"/><stop offset="100%" stop-color="#2563eb"/>
-              </linearGradient>
-            </defs>
-        
-      <g transform="translate(427, 100) scale(1, 1) translate(-427, -100)">
-        <path d="" fill="url(#linear)" opacity="0.4" >
-          <animate
-              attributeName="d"
-              dur="20s"
-              repeatCount="indefinite"
-              keyTimes="0;0.333;0.667;1"
-              calcmod="spline"
-              keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
-              begin="0s"
-              values="M0 0L 0 120Q 213.5 160 427 130T 854 155L 854 0 Z;M0 0L 0 145Q 213.5 160 427 140T 854 130L 854 0 Z;M0 0L 0 165Q 213.5 135 427 165T 854 130L 854 0 Z;M0 0L 0 120Q 213.5 160 427 130T 854 155L 854 0 Z">
-          </animate>
-        </path>
-        <path d="" fill="url(#linear)" opacity="0.4" >
-          <animate
-            attributeName="d"
-            dur="20s"
-            repeatCount="indefinite"
-            keyTimes="0;0.333;0.667;1"
-            calcmod="spline"
-            keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
-            begin="-10s"
-            values="M0 0L 0 135Q 213.5 180 427 150T 854 160L 854 0 Z;M0 0L 0 150Q 213.5 120 427 120T 854 140L 854 0 Z;M0 0L 0 145Q 213.5 125 427 150T 854 165L 854 0 Z;M0 0L 0 135Q 213.5 180 427 150T 854 160L 854 0 Z">
-          </animate>
-        </path>
-      </g>
-         <text text-anchor="middle" alignment-baseline="middle" x="50%" y="38%" class="text" style="fill:#ffffff;" stroke="#none" stroke-width="1" >Internship Report 2026</text>
-        <text text-anchor="middle" alignment-baseline="middle" x="50%" y="62%" class="desc" style="fill:#ffffff;">BTP Holdings - QC and Warranty Service - HCMUS FETEL - K2022 CLC</text>
-      </svg>
-    
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="0.52" stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#e0f2fe" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#020617" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="320" rx="28" fill="url(#bg)"/>
+  <g opacity="0.22">
+    <path d="M-50 245 C180 160 325 305 560 205 C800 105 960 160 1260 55" stroke="#ffffff" stroke-width="18" stroke-linecap="round">
+      <animate attributeName="d" dur="10s" repeatCount="indefinite" values="M-50 245 C180 160 325 305 560 205 C800 105 960 160 1260 55;M-50 210 C190 290 330 135 560 205 C790 275 980 120 1260 95;M-50 245 C180 160 325 305 560 205 C800 105 960 160 1260 55"/>
+    </path>
+    <path d="M-40 95 C170 190 350 50 570 145 C805 245 980 80 1240 185" stroke="#f8fafc" stroke-width="8" stroke-linecap="round">
+      <animate attributeName="d" dur="12s" repeatCount="indefinite" values="M-40 95 C170 190 350 50 570 145 C805 245 980 80 1240 185;M-40 130 C190 40 350 210 570 145 C805 80 990 245 1240 150;M-40 95 C170 190 350 50 570 145 C805 245 980 80 1240 185"/>
+    </path>
+  </g>
+  <g filter="url(#soft)">
+    <rect x="52" y="54" width="1096" height="212" rx="24" fill="url(#card)" opacity="0.96"/>
+    <rect x="52" y="54" width="1096" height="212" rx="24" stroke="#ffffff" stroke-opacity="0.7"/>
+  </g>
+  <text x="88" y="116" fill="#0f172a" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="800">BTP Holdings Internship Report</text>
+  <text x="90" y="154" fill="#334155" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="600">QC and Warranty Service - HCMUS FETEL - Luong Hai Long 22207056</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-weight="700">
+    <rect x="90" y="188" width="178" height="44" rx="14" fill="#0f766e"/>
+    <text x="122" y="216" fill="#ffffff" font-size="18">400h Internship</text>
+    <rect x="286" y="188" width="210" height="44" rx="14" fill="#2563eb"/>
+    <text x="318" y="216" fill="#ffffff" font-size="18">Typst Source + PDF</text>
+    <rect x="514" y="188" width="210" height="44" rx="14" fill="#d95319"/>
+    <text x="547" y="216" fill="#ffffff" font-size="18">Renamed Assets</text>
+    <rect x="742" y="188" width="216" height="44" rx="14" fill="#334155"/>
+    <text x="774" y="216" fill="#ffffff" font-size="18">Engineering Evidence</text>
+  </g>
+  <g transform="translate(1016 86)">
+    <rect width="86" height="120" rx="16" fill="#0f172a" opacity="0.92"/>
+    <rect x="18" y="22" width="50" height="10" rx="5" fill="#38bdf8"/>
+    <rect x="18" y="47" width="50" height="10" rx="5" fill="#22c55e"/>
+    <rect x="18" y="72" width="50" height="10" rx="5" fill="#f97316"/>
+    <circle cx="43" cy="102" r="7" fill="#e0f2fe">
+      <animate attributeName="r" dur="1.8s" repeatCount="indefinite" values="6;10;6"/>
+    </circle>
+  </g>
+</svg>
