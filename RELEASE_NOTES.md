@@ -1,17 +1,18 @@
-# English Portfolio Refresh
-
-## Main updates
-
-- Rewrote the public README in English for HR and engineering review.
-- Standardized the repository summary, reviewer map, evidence highlights, scope boundaries and release/tag links.
-- Preserved an evidence-first tone: clear technical nouns, bounded claims and no production ownership beyond the repository material.
-
-## Repository evidence
-
-- Typst source and release PDF for the internship report.
-- Quality-control and warranty-service observation context.
-- Home-appliance product and limited IoT exposure noted at intern scope.
+# English Visual Portfolio Refresh - 2026-06-02
 
 ## Scope
 
-Internship report repository. It is evidence of observation, documentation and limited technical exposure, not a claim of full product ownership.
+This refresh keeps `BCTT-ThucTap-BTPHoldings` aligned with an English-facing engineering portfolio for HR and technical review.
+
+## Changes
+
+- Added an ASCII-safe animated SVG visual under `assets/portfolio-motion.svg`.
+- Embedded the visual in `README.md` for immediate GitHub rendering.
+- Standardized Markdown and binary asset handling through `.gitattributes`.
+- Kept the repository description evidence-first and scoped to: Internship report and technical documentation.
+
+## Review Context
+
+Primary stack: Typst, quality-control observations, warranty-service context, technical reporting.
+
+The repository remains bounded to its real artifacts and does not claim production ownership beyond what the source tree, reports, code or release assets can support.

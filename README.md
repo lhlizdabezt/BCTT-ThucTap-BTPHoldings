@@ -5,6 +5,10 @@
   <a href="https://github.com/lhlizdabezt/BCTT-ThucTap-BTPHoldings/tags"><img src="https://img.shields.io/github/v/tag/lhlizdabezt/BCTT-ThucTap-BTPHoldings?style=for-the-badge&logo=git&label=Tag" alt="Latest tag for BCTT-ThucTap-BTPHoldings" /></a>
   <img src="https://img.shields.io/badge/Portfolio-English%20review%20ready-0f766e?style=for-the-badge" alt="English portfolio ready" />
 </p>
+<p align="center">
+  <img src="assets/portfolio-motion.svg" alt="Animated engineering portfolio visual for BCTT-ThucTap-BTPHoldings" width="100%" />
+</p>
+
 
 ## Overview
 
