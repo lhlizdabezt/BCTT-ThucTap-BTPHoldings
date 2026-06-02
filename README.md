@@ -1,69 +1,123 @@
 # BTP Holdings Internship Report Portfolio Wrapper
 
-<p align="center">
-  <a href="https://github.com/lhlizdabezt/BCTT-ThucTap-BTPHoldings/releases/latest"><img src="https://img.shields.io/github/v/release/lhlizdabezt/BCTT-ThucTap-BTPHoldings?style=for-the-badge&logo=github&label=Release" alt="Latest release for BCTT-ThucTap-BTPHoldings" /></a>
-  <a href="https://github.com/lhlizdabezt/BCTT-ThucTap-BTPHoldings/tags"><img src="https://img.shields.io/github/v/tag/lhlizdabezt/BCTT-ThucTap-BTPHoldings?style=for-the-badge&logo=git&label=Tag" alt="Latest tag for BCTT-ThucTap-BTPHoldings" /></a>
-  <img src="https://img.shields.io/badge/Portfolio-English%20review%20ready-0f766e?style=for-the-badge" alt="English portfolio ready" />
-</p>
-<p align="center">
-  <img src="assets/portfolio-motion.svg" alt="Animated engineering portfolio visual for BCTT-ThucTap-BTPHoldings" width="100%" />
-</p>
+![Profile](https://img.shields.io/badge/Profile-lhlizdabezt-0B3D91?style=for-the-badge)
+![Writing](https://img.shields.io/badge/Writing-IEEE%20and%20Harvard%20style-1F6F5B?style=for-the-badge)
+![Language](https://img.shields.io/badge/Language-English%20US-7A1E3A?style=for-the-badge)
+![Review](https://img.shields.io/badge/Status-Reviewer%20Ready-333333?style=for-the-badge)
 
+![BTP Holdings Internship Report Portfolio Wrapper reviewer card](assets/reviewer-card.svg)
 
-## Overview
+## Executive Summary
 
-This repository presents an internship report at BTP Holdings with an English-facing portfolio wrapper around quality-control and warranty-service observations.
+This repository presents the BTP Holdings internship report as a recruiter-readable engineering portfolio artifact. It emphasizes quality-control observation, warranty-service workflow, consumer-electronics handling, documentation discipline, and evidence-backed reporting rather than overstating confidential business operations.
+
+## Project Snapshot
 
 | Field | Details |
 |---|---|
-| Repository | [BCTT-ThucTap-BTPHoldings](https://github.com/lhlizdabezt/BCTT-ThucTap-BTPHoldings) |
-| Portfolio category | Internship report and technical documentation repository |
-| Primary stack | Typst, technical report writing, quality-control observations, warranty-service context, release PDF. |
-| Latest release | [GitHub Releases](https://github.com/lhlizdabezt/BCTT-ThucTap-BTPHoldings/releases/latest) |
-| Tags | [Version tags](https://github.com/lhlizdabezt/BCTT-ThucTap-BTPHoldings/tags) |
-| Owner profile | [Luong Hai Long](https://github.com/lhlizdabezt) |
+| Repository | [lhlizdabezt/BCTT-ThucTap-BTPHoldings](https://github.com/lhlizdabezt/BCTT-ThucTap-BTPHoldings) |
+| Portfolio Track | Internship report, quality control, warranty service, and technical documentation |
+| Public Status | Reviewer-ready English guide with release-backed evidence |
+| Latest Release | [Open stable release](https://github.com/lhlizdabezt/BCTT-ThucTap-BTPHoldings/releases/latest) |
+| Owner Profile | [lhlizdabezt](https://github.com/lhlizdabezt) |
+| Contact | 22207056@student.hcmus.edu.vn; luonghailong.work@gmail.com; Tel: +84988114708 |
 
-## Reviewer Map
+## Reviewer Evidence Map
 
-| What to Review | Where to Look | Why It Matters |
-|---|---|---|
-| Technical scope | This README and source tree | Gives a quick, bounded reading path before opening every file |
-| Evidence assets | Release page and top-level project files | Shows what can be downloaded or inspected quickly |
-| Implementation material | Source folders, scripts, notebooks or design files | Connects the portfolio claim to real project artifacts |
-| Version history | Tags and release notes | Makes the repository easier to audit over time |
+- Typst report source and configuration for consistent academic formatting.
+- Workbench, workshop, and warranty-service photographs used as visual evidence.
+- English captions and release notes for HR, academic reviewers, and engineering supervisors.
+- A scoped portfolio wrapper that separates public review material from private internship details.
 
-## Evidence Highlights
+## Implementation Review Notes
 
-- Typst source and release PDF for the internship report.
-- Quality-control and warranty-service observation context.
-- Home-appliance product and limited IoT exposure noted at intern scope.
-- Documentation discipline for a professional environment.
+| Review Point | What To Check |
+|---|---|
+| Problem framing | Confirm that the README explains the engineering purpose without exaggerated claims. |
+| Technical evidence | Inspect the source folders, reports, scripts, schematics, or visual assets listed below. |
+| Reproducibility | Use the local instructions where tools are available, or rely on the release snapshot for portfolio review. |
+| Communication quality | Check headings, captions, tables, and release notes for clear English technical writing. |
+| Professional boundary | Treat the repository as educational or portfolio evidence unless the source explicitly proves production deployment. |
 
 ## Repository Structure
 
-| Path | Purpose |
+| Path | Reviewer Purpose |
 |---|---|
-| `assets/` | Top-level directory included in the repository |
-| `docs/` | Top-level directory included in the repository |
-| `fonts/` | Top-level directory included in the repository |
-| `media-archive/` | Top-level directory included in the repository |
-| `src/` | Top-level directory included in the repository |
-| `config.typ` | Top-level file included in the repository |
-| `LICENSE` | Top-level file included in the repository |
-| `main.typ` | Top-level file included in the repository |
+| `main.typ` | Primary Typst entry point for the internship report. |
+| `config.typ` | Report configuration and reusable metadata. |
+| `src/` | Report sections and supporting Typst content. |
+| `assets/` | Public visual evidence, motion graphics, and reviewer-safe images. |
+| `RELEASE_NOTES.md` | Release changelog for the current English reviewer guide. |
 
-## Scope and Boundaries
+## How To Review
 
-Internship report repository. It is evidence of observation, documentation and limited technical exposure, not a claim of full product ownership.
+- Start with the executive summary in this README to understand the public scope.
+- Review `main.typ`, `config.typ`, and `src/` to inspect report structure and formatting discipline.
+- Open `assets/` to verify the internship evidence images and captions.
+- Use the latest GitHub release for a stable snapshot of the reviewed portfolio state.
 
-## Role and Portfolio Context
+## How To Use Or Inspect Locally
 
-Luong Hai Long authored and packaged the report as part of internship and portfolio documentation.
+- Install Typst if you want to compile the source locally.
+- Run `typst compile main.typ` from the repository root when the local Typst environment is available.
+- If you only need to review the portfolio, read this README and the latest release notes first.
+- Use the images under `assets/` as supporting evidence, not as private operational disclosure.
 
-## Release and Tagging Notes
+## Visual Evidence
 
-This repository is maintained as part of an English-facing engineering portfolio. Releases and tags are used to preserve reviewable snapshots of the project, including source state, documentation updates and any available visual or report assets.
+![Animated English reviewer card.](assets/reviewer-card.svg)
+
+*Animated English reviewer card.*
+
+![Workbench quality-control evidence.](assets/workbench_qc.jpg)
+
+*Workbench quality-control evidence.*
+
+![Warranty-service and training context.](assets/warranty_conference.jpg)
+
+*Warranty-service and training context.*
+
+![Workshop environment overview.](assets/workshop_overview.jpg)
+
+*Workshop environment overview.*
+
+## Release, Tags, And Topics
+
+- Current release target: `reviewer-guide-2026-06-02`.
+- Recommended topic set: `internship-report, quality-control, warranty-service, technical-writing, typst, electronics, consumer-electronics, documentation, hcmus, btp-holdings`.
+- Release notes are maintained in [`RELEASE_NOTES.md`](RELEASE_NOTES.md) for stable reviewer traceability.
+- The release archive is intended for HR review, seminar evidence, and academic portfolio verification.
+
+## Contact And Professional Links
+
+| Channel | Link |
+|---|---|
+| GitHub | [https://github.com/lhlizdabezt](https://github.com/lhlizdabezt) |
+| LinkedIn | [https://www.linkedin.com/in/lhlizdabezt](https://www.linkedin.com/in/lhlizdabezt) |
+| Facebook | [https://www.facebook.com/wageseadrake](https://www.facebook.com/wageseadrake) |
+| Instagram | [https://www.instagram.com/lhlizdabezt](https://www.instagram.com/lhlizdabezt) |
+| YouTube | [https://www.youtube.com/@lhlizdabezt](https://www.youtube.com/@lhlizdabezt) |
+| TikTok | [https://www.tiktok.com/@wageseadrake](https://www.tiktok.com/@wageseadrake) |
+| Academic Email | [22207056@student.hcmus.edu.vn](mailto:22207056@student.hcmus.edu.vn) |
+| Professional Email | [luonghailong.work@gmail.com](mailto:luonghailong.work@gmail.com) |
+| Phone | [+84988114708](tel:+84988114708) |
+
+## FAQ
+
+| Question | Answer |
+|---|---|
+| Is this a public version of the internship report? | Yes. It is written as a public portfolio wrapper and avoids private operational claims. |
+| What should a reviewer focus on? | Documentation quality, evidence organization, technical observation, and professional communication. |
+| Does the repository claim production ownership at BTP Holdings? | No. It presents an internship learning record and public-facing documentation evidence. |
+
+## Scope And Boundaries
+
+- This repository is presented as public engineering portfolio evidence.
+- Claims are intentionally limited to what the repository, report, source files, simulations, or visual assets can support.
+- Public text is written in English (United States) for HR, faculty, and engineering reviewers.
+- SVG text is kept ASCII-safe to reduce rendering errors, mojibake, and missing-glyph blocks.
+- Motion visuals avoid moving dotted paths, curved connector lines, and text-over-line compositions.
 
 ## Writing Standard
 
-The README follows an evidence-first style: direct technical nouns, clear project boundaries, release-backed artifacts and no inflated claims beyond what the repository can support.
+The public README, release notes, captions, and reviewer-facing metadata are written in a restrained IEEE and Harvard-inspired style: concise, evidence-first, technically accurate, and suitable for Electronics and Telecommunications portfolio review.
